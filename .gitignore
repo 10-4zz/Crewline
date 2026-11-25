@@ -1,0 +1,27 @@
+# Python caches & packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+
+# Crewline local state & logs
+.crewline/
+.crewline-demo/
+*.log
+
+# Local environment secrets & private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS noise
+.DS_Store
